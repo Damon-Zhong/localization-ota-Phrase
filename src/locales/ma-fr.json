@@ -1,0 +1,935 @@
+{
+	// --> Common Words
+	'email': 'Courriel',
+	'password': 'Mot de Passe',
+	'ok': 'OK',
+	'okay': 'Okay',
+	'confirm': 'Confirmer',
+	'phone': 'Téléphone',
+	'cancel': 'Annuler',
+	'save': 'Sauvegarder',
+	'edit': 'éditer',
+	'remove': 'Supprimer',
+	'answer': 'Accepter',
+	'call': 'appel',
+	'yes': 'Oui',
+	'no': 'Non',
+	'or': 'ou',
+	'at': 'à',
+	'day': 'Jour',
+	'week': 'La semaine',
+	'month': 'Mois',
+	'January': 'janvier',
+	'February': 'février',
+	'March': 'mars',
+	'April': 'avril',
+	'May': 'mai',
+	'June': 'juin',
+	'July': 'juillet',
+	'August': 'aout',
+	'September': 'septembre',
+	'October': 'octobre',
+	'November': 'novembre',
+	'December': 'décembre',
+	'increase': 'hausse',
+	'decrease': 'baisse',
+	'summary': 'Sommaire',
+	'warning': 'Avertissement',
+	'accept': 'Accepter',
+	'notes': 'Notes',
+	'images': 'Images',
+	'category': 'catégorie',
+	'severity': 'gravité',
+	'date': 'Date',
+	'time': 'Heure',
+	'today': 'Aujourd’hui',
+	'from': 'depuis',
+	'type': "Type",
+	'price': "Prix",
+	'available': 'Disponible',
+	'unavailable': 'Indisponible',
+	'unknown': 'Inconnu',
+	//'level': "Niveau",
+	'free': "Gratuit",
+	'retry': 'Réessayez',
+	'next': 'Suivant',
+	'home': 'Accueil',
+	'notifications': 'Notices',
+	'camera': 'Caméras',
+	'disable': 'Désactiver',
+	'to': 'au',
+	'add': 'Ajouter',
+	'apply': 'Appliquer',
+	'required': 'Requis',
+	'optional': 'Optionnel',
+	'prevDay': "Jour précédent",
+	'prevMonth': "Le mois précédent",
+	'location': 'Emplacement',
+	'capacity': 'Capacité',
+	'guests': 'invités',
+	'attendees': 'participants',
+	'showMore': 'Afficher plus…',
+	'closed': 'Fermée',
+	'done': 'Terminé',
+	'none': 'Aucun',
+	'requirements': 'Conditions requises',
+	'clear': 'Effacer',
+	'resident': 'résident',
+	'characters': 'personnages',
+	'status': {
+		"pending": "En attente",
+		"approved": "Approuvé",
+		"rejected": "Rejeté",
+		"cancelled": "Annulé",
+		"inprogress": "En cours",
+		"completed": "Complété",
+		"expired": "Expiré"
+	},
+	"daily": "Quotidienne",
+	"hourly": "Par heure",
+	'review': "Revoir",
+	"general": {
+		"emailAddress:": "adresse e-mail",
+		"startDate": "Date de début",
+		"endDate": "Date de clôture",
+		"startTime": "Heure de début",
+		"endTime": "Heure de fin",
+		"addMore": "Ajouter plus",
+		"edit": "Modifier",
+		'delete': "Supprimer",
+		"name": "Nom",
+		"email": "email",
+		"review": "Revoir",
+		"disclaimer": "Clause de non-responsabilité",
+		'from': 'depuis',
+		"to": "au",
+		'at': 'à',
+		"next": "Suivant",
+		"previous": "Précédente",
+		"submit": "Soumettre",
+		"submitted": "Soumis",
+		"done": "Terminé",
+		'remove': 'Supprimer',
+		'firstName': 'Prénom',
+		'lastName': 'Nom de famille',
+		'access': 'Accès',
+		'optional': 'optionnel',
+		'close': 'Fermer',
+		search: 'Recherche',
+		Monday: "lundi",
+		Tuesday: "mardi",
+		Wednesday: "mercredi",
+		Thursday: "jeudi",
+		Friday: "vendredi",
+		Saturday: "samedi",
+		Sunday: "dimanche",
+		ok: 'OK',
+		cool: 'Refroidir',
+		heat: 'Chaleur',
+		on: 'Activé',
+		auto: 'Auto'
+	},
+	errors: {
+		unknownError: "Une erreur s'est produite",
+		tooShort: "Minimum de {{ min }} caractères requis",
+		"invalidFormat": "Veuillez entrer un {{ field }} valide",
+		"requiredField": "Le champ {{ field }} est obligatoire",
+		"minSelection": "Veuillez sélectionner au moins {{ min }} {{ field }}",
+		endDateTimeEarly: 'La date et l’heure de début doivent être antérieures à la date et à l’heure de fin',
+		endDateEarly: 'La date de début doit être antérieure à la date de fin',
+		endTimeEarly: 'L’heure de début doit être antérieure à l’heure de fin',
+		emailsNotMatch: 'Les e-mails ne correspondent pas'
+	},
+	'disconnect': 'Déconnexion',
+	'resumed': 'a repris',
+	'paused': 'en pause',
+	'pause': 'Pause',
+	'reactivate': "Réactiver",
+	'removed': 'supprimé',
+
+	// <-- Common Words
+
+	// --> Common Messages
+
+	'importantNotice': 'Annonce importante',
+	'firstName': 'Prénom',
+	'lastName': 'Nom de famille',
+	'emailAddress': 'Adresse courriel',
+	'phoneNumber': 'Numéro de téléphone',
+	'permanentlyDelete': 'Suppression permanente',
+	'actionCantBeUndone': 'Cette action n’est pas réversible',
+	'emptyListMessage':
+		"Vous n’avez pas de {{items}}. \n Cliquez sur l'icône ' + ' pour commencer.",
+	'hoursOperation': "Heures d'ouverture",
+	'termsConditions': "Conditions d'utilisation",
+	'selectDate': "Sélectionnez la date",
+	'selectTime': "Sélectionner l'heure",
+	'selectDateTime': "Sélectionnez la date et l'heure",
+	'selectTimeSlot': 'Ajouter un créneau horaire',
+	'additionalDetails': 'Détails supplémentaires',
+	'additionalInfo': 'Informations complémentaires',
+	'maxCharacterLimit': 'Limite maximale de caractères',
+	'viewMore': 'Voir Plus',
+	'viewLess': 'Voir Moins',
+	'pleaseNote': 'Veuillez noter',
+	'referenceNum': 'N° de référence',
+	'selectAnotherDate': 'Veuillez sélectionner une autre plage horaire',
+	'pleaseSelectOption': "Veuillez sélectionner l'option dans le menu déroulant",
+	'msgTryAgainLater': 'Veuillez réessayer plus tard.',
+	'invalidSelection': 'Selection invalide',
+	'enterAccessCode': 'Insérer le code d’accès',
+	'scanQRcode': 'Numériser le code QR',
+	'actionCannotBeUndone': 'Cette action ne peut être rectifiée.',
+	'couldNotBe': 'pourrait ne pas être',
+	'hasBeen': 'a été',
+
+	// <-- Common Messages
+
+	// --> Common Error message
+
+	'error': 'Erreur',
+	'errorTooShort': 'Veuillez entrer au moins {1} caractères',
+	//'accessCodeSentMessage': 'Code d’accès envoyé à votre courriel',
+	'acessCodeErrorTooShort': 'Veuillez entrer le code au complet',
+	//'authLoginButton': 'Avez-vous un déjà un compte',
+	'networkError': 'Erreur réseau!',
+	'networkErrorDescription': 'Veuillez vous assurer que vous êtes connecté à l’internet.',
+	'errorBoundaryScreen': "Quelque chose s'est mal passé en visitant",
+	'errorBoundaryService': 'Quelque chose s’est mal passe en complétant votre requête de',
+	'errorBoundaryButton': 'Veuillez réessayez',
+	'errorFillAllFields': 'Veuillez remplir toutes les lignes du formulaire',
+	'errorFieldRequired': 'Cette case est requise', // not empty!
+	'errorEnterValidValue': 'Veuillez enter une valeur valide',
+	'commaxServerUnreachable':
+		"Problème de connectivité : le contrôle de l'appareil est temporairement indisponible en raison d'un problème de serveur. Veuillez réessayer ultérieurement.",
+
+	// <-- Common Error message
+
+	'dataUnavailable': 'Les données sont actuellement indisponibles. Nous nous excusons pour les inconvénients causés.',
+	'registerWallpad': 'Enregistrez-vous sur la tablette intelligente de votre suite pour voir vos informations.',
+	// discard dialog displayed when a user cancels a process but has not changed any info
+	'discardModalTitle': 'Annuler les changements',
+	'discardModalDescription': 'Êtes-vous sure de vouloir annuler les changements faits?',
+	'resendCodeDescription': 'J’ai pas reçu de code', // two part button
+	'resendCodeAction': 'Renvoyez le code',
+	'termsAndConditions': 'Conditions générales',
+	'privacyPolicy': 'Politique de confidentialité',
+	// Loading
+
+	// calls
+	//'lobby': 'Hall d’entrée',
+	//'guard': 'Concierge',
+	//'incoming call from lobby': 'Appel d’intercom',
+	//'incoming call from guard': 'Appel du concierge',
+	// 'missed call for lobby': 'Appel manqué',
+	// 'missed call for guard': 'Appel manqué',
+	//'accept call from other': 'Appel répondu',
+	'endCall': 'Terminer l’appel',
+	'openDoor': 'Ouvrir la porte',
+	'enterDoorLockPasscode': 'Insérer votre mot de passe utilisateur de la tablette',
+	'doorUnlocked': 'Porte déverrouillée',
+	'incorrectPasscode': 'Mot de passe incorrect',
+	// Alarms These  are used by the constants in in src/constants/alarms.js
+	'alarm': 'Alarme',
+	'SMOKE': 'Fumée Alarme',
+	'WATER': "Alarme d'inondation",
+	'EMERGENCY': 'Urgence Alarme',
+	'SECURITY': 'Sécurité Alarme',
+	'dismiss': 'Annuler',
+
+	// <-- blinds iot Service
+	'open': 'Ouvrir',
+	'close': 'Fermer',
+	'half': 'À moitié',
+	'loadingDevices': 'Chargement des appareils',
+	'noDevices': 'Aucun appareil disponible',
+	'vertical': 'Vertical (par défaut)',
+	'horizontal': 'Horizontal',
+	'orientationHeader': 'Orientation aveugle',
+	'commandSend': 'Commande envoyee',
+	'commandReceivedMsg': 'Commande reçue, en attente de confirmation.',
+	'commandSuccess': 'Commande exécutée avec succès',
+	'commandConfirmationMissing': 'Erreur de connexion',
+	'commandErrorOccured': 'Une erreur est survenue.',
+	'errorMsg': 'Une erreur est survenue',
+	// --> blinds iot Service
+
+	// notification Alarm message also used by android
+	// push notifications (ios string should mirror these values
+	// and are located in files of the ios Xcode project)
+
+	// <-- Notification Alarm message
+	//any changes to this section must be copied to ios stering file
+	'fireEvent': "Détecteur de fumée à l'intérieur de la suite !",
+	'fireEventTitle': 'Détecteur de fumée',
+	'area1EventTitle': 'Alarme de sécurité',
+	'area1Event': "Alarme de sécurité à l'intérieur de la suite !",
+	'area4EventTitle': 'Alarme de sécurité sans fil',
+	'area4Event': 'Alarme de sécurité de la suite.',
+	'waterEvent': "Alarme d'inondation à l'intérieur de la suite!",
+	'waterEventTitle': "Alerte capteur d’eau",
+	'emerEvent': "Alarme d'urgence à l'intérieur de la suite !",
+	'emerEventTitle': "Alarme d'urgence",
+	'deviceStatusEventTitle': 'Alerte capteur d’eau',  //known  duplicate localization key comes from commax !
+	'deviceStatusEvent': "Le capteur n’est pas connecté.",
+	// --> Notification Alarm message
+
+	// <-- Home page
+
+	'homeEmptySuiteMsg': 'Vous êtes actuellement déconnecté du Wall Pad',
+	'homeWallPadReconnect': 'Reconnecter au Wall Pad',
+
+	// --> Home page
+
+	// <-- Suite Connector
+	//'connectButtonLabel': 'Se Connecter',
+	//'connectButtonErrorLabel': 'Une erreur est survenue. Veuillez réessayez.',
+	//'connectScanInstructionsLine1': 'Pour vous connecter à votre suite, appuyez',
+	//'connectScanInstructionsLine2Part1': 'Afin de vous connecter à votre suite, veuillez scanner le code QR de votre tablette',
+	//'connectScanInstructionsLine2Part2': 'Votre tablette affichera un code QR sur la gauche.',
+	// 'connectSuiteQRCodeNavigationAppsLabel': 'applis',
+	// 'connectSuiteQRCodeNavigationUserLabel': 'Compte utilisateur', // not localized on wall pad
+	// 'connectScanInvalidQRCodeAlertTitle': 'Le code QR invalide',
+	'connectScanInvalidQRCodeAlertDetails':
+		'Le code QR n’est pas valide. Veuillez vous assurer de balayer le bon code QR ou contactez le service à la clientèle de SmartONE pour assistance.',
+	// 'connectCodeInputInstructionsTitle': 'Entrez le code de la tablette',
+	'connectCodeInputIncorrectCodeDetails': "Le code que vous avez scanné n'est pas valide. \rVeuillez fermer et rouvrir l'écran « Compte d'utilisateur » sur le bloc-notes pour obtenir un nouveau code QR.",
+	'connectCodeInputIncorrectDynamicCodeDetails':
+		'Ce code QR a expiré. Veuillez fermer et rouvrir l’écran ‘Compte Utilisateur’ sur la tablette pour obtenir un nouveau code QR',
+	// 'connectSuiteRegistrationErrorTitle': 'Une erreur est survenue',
+	'connectSuiteRegistrationErrorDetails': 'Ce code QR n’est pas lié à aucune communauté spécifique. Veuillez contacter le service à la clientèle de SmartONE pour assistance.',
+	'connectSuiteDisconnectedMessage': 'Vous n’êtes pas connecté à la tablette. Veuillez balayer le code QR pour vous connecter.',
+	// 'connectSuiteInstructionsTitle': ' Pour vous connecter:',
+	// 'connectSuiteInstructionsStep1': ' De l’écran d’accueil de votre tablette, cliquez',
+	// 'connectSuiteInstructionsStep1Line2': 'Apps > Compte Utilisateur',
+	// 'connectSuiteInstructionsStep2': ' Votre tablette affichera un code QR sur la gauche',
+	// 'connectSuiteInstructionsStep3':
+	// 	' Scannez le code QR en utilisant votre téléphone en cliquant sur la touche de connexion vert ONE ci-dessus',
+	// 'connectSuiteProgress': 'Se connectent à votre suite',
+	'connectSuiteCodeResent': 'Le code d’accès a étérenvoyé à la tablette',
+	// 'disconnectedFromSuiteErrorMsg':
+	// 	'Vous avez été déconnecté de la tablette/AppliONE!. Veuillez-vous reconnecter en scannant le code QR de votre tablette.',
+	'QrCodeScanned': 'Code QR scanné',
+	// first line has a back arrow icon between the 2 parts
+	// 'connectCodeNavigationInstructionsLine1BeforeIcon': 'Pour obtenir votre code; allez vers l’écran des notifications',
+	// 'connectCodeNavigationInstructionsLine1AfterIcon': 'Appuyez la touche retour de l’écran compte utilisateur',
+	// Second line has a home icon between the 2 parts
+	// 'connectCodeNavigationInstructionsLine2BeforeIcon': 'Cliquez',
+	// 'connectCodeNavigationInstructionsLine2AfterIcon': 'Appuyez la touche retour de l’écran compte utilisateur', // change
+	// 3rd line has a notification (bell) icon between the 2 parts
+	// 'connectCodeNavigationInstructionsLine3BeforeIcon': 'Cliquez La Notice',
+	// 'connectCodeNavigationInstructionsLine3AfterIcon': 'Appuyez l’icône du bas sur la gauche', // change
+	// 'connectCodeNavigationInstructionsLine4': 'Sélectionnez la notification du dessus',
+	// 'connectCodeNavigationInstructionsLine5': 'Entrez votre code ci-dessous',
+	// 'connectCodeSendToWallpad': 'Envoyer le code à la tablette',
+	'videoTutorial': 'Tutoriel vidéo disponible',
+	'watchNow': 'Regarder maintenant',
+
+	// --> Suite Connector
+
+	// <-- Permissions
+	// these string are for android rationales
+	// these values are only show AFTER the user has denied the original access request
+
+	'permissionTitleCamera': 'L’accès à la caméra est requis par l’appli ONE!',
+	'permissionDescriptionCamera':
+		'Veuillez autoriser l’accès à la camera de votre téléphone afin de pouvoir balayer le code QR de votre tablette et vous connecter à votre suite.',
+	'permissionTitleAudio': 'L’accès au microphone est requis par l’appli ONE!',
+	'permissionDescriptionAudio':
+		'Veuille autoriser l’accès au microphone de votre téléphone, afin de pouvoir recevoir les appels d’intercom directement sur votre téléphone.',
+	'permissionTitlePhone': 'L’accès à votre téléphone est requis pour l’appli ONE!',
+	'permissionDescriptionPhone':
+		'Veuillez autoriser la permission sur votre téléphone, afin de recevoir les appels d’intercom des visiteurs et du concierge sur votre téléphone.',
+	'permissionButtonPositive': 'Pendant l’utilisation de l’appli',
+	'permissionButtonNegative': 'Ne pas autoriser',
+	'permissionButtonNeutral': 'Seulement pour cette fois',
+
+	// --> Permissions
+
+	// <-- Parking
+	// these values are used in both the parking card and the add vehicle form
+	'parkingVehicleMakeLabel': 'Marque du véhicule',
+	'parkingVehicleModelLabel': 'Modèle du véhicule',
+	'parkingVehicleColorLabel': 'Couleur du véhicule',
+	'parkingEngineTypeLabel': 'Type de moteur',
+	'parkingLicensePlateLabel': 'Plaque d’immatriculation',
+	'parkingAddVehicle': 'Ajouter véhicule',
+	'parkingVehicleTypeLabel': 'Type de véhicule',
+	'parkingVehicleDeleteBtn': 'Effacer un véhicule',
+	'parkingVehicleSaveBtn': 'Sauvegarder le véhicule',
+	// shown when deleting a vehicle
+	'parkingDeleteModalTitle': 'Êtes sur de vouloir effacer ce véhicule?',
+	'parkingDeleteModalConfirmText': 'Effacer',
+
+	// --> Parking
+
+	// <---- AuthScreens
+	// <-- Landing screen
+	'authLandingScreenLogin': 'Vous avez déjà un compte?',
+	'authLandingScreenLoginAction': 'Se connecter', // two part button
+	'authLandingCreateAccount': "S'inscrire",
+	// 'authLandingForgotPassword': 'Mot de passe oublié?', // two par button
+	// 'authLandingForgotPasswordAction': 'réinitialiser le mot de passe ',
+	'authCreateAccountTitle': 'Créer un Compte',
+	'authVerifyEmailTitle': 'Vérifier le courriel',
+	// forgot password request code
+	// 'authForgotPasswordHeaderTitle': 'mot de passe oublié?',
+	// 'authForgotPasswordHeaderDetails': 'Veuillez entrer le courriel associé à votre compte',
+	'authForgotPasswordRequestCodeButton': 'Demandez le code', // user presses for 2FA auth code
+
+	// <-- Reset Code Screen
+	// 'authResetCodeHeaderTitle': 'réinitialiser le mot de passe',
+	// 'authResetCodeHeaderDetails': 'Veuillez entrer le code d’accès envoyé à votre courriel',
+	// 'authResetCodeFormTitle': 'vérifier votre adresse courriel',
+
+	// <-- Reset Password Screen
+	// 'authResetPasswordSuccessAlert': 'Changement de mot de passe réussi',
+	// 'authResetPasswordPasswordLabel': 'Mot de passe',
+	// 'authResetPasswordConfirmPasswordLabel': 'confirmez le mot de passe*', // ssterix ?
+	// 'authResetPasswordButtonTitle': 'Réinitialiser le mot de passe',
+	// 'authResetPasswordUserNotFound': "L'utilisateur non trouvé",
+
+	// <-- Sign up form  (2fa new account form)
+	// 'authSignUpTimeOutError': 'Temps de la requête épuisée',
+	// 'authSignUpButtonLabel': 'Confirmez le courriel',
+
+	// <-- Sign up form  (first / Last name )
+	// 'authSignUpHeader': 'créer un compte',
+	// 'authSignUpNameFirstNameLabel': 'Prénom',
+	// 'authSignUpNameLastNameLabel': 'Nom',
+	// 'authSignUpNameNextButtonLabel': 'Suivant', //transistion to next screen
+
+	// <-- SignUp password Screen
+	// 'authSignUpPasswordHeaderDescription': 'Insérez un nouveau mot de passe',
+	// 'authSignUpPasswordPasswordLabel': 'Mot de passe',
+	// 'authSignUpPasswordConfirmPasswordLabel': 'Confirmer le mot de passe',
+	// 'authSignUpPasswordCreatAccountBtn': 'Créer un compte',
+	// agreementText displayed before name of agreement title
+	// I've read and agreed to the Terms and Conditions
+	// should 'legally bind the user
+	'authSignUpPasswordLegalAgreement': 'J’ai lu et j’accepte ',
+	// incorrect SMS/phone code error message
+	// 'authIncorrectVerifcationError': 'Code de confirmation incorrecte, veuillez réessayer.',
+	// 'authInvalidFirstName': 'Fr-Please enter a valid First Name',
+	'authInvalidLastName': 'Fr-Please enter a valid Last Name',
+
+	'authVerifyEmailStatusPending': 'Confirmation de votre courriel en cours',
+	'authVerifyEmailStatusSuccess': 'Courriel validé',
+	'authVerifyEmailStatusFailure': "Ce lien courriel n'est pas valide",
+	'authVerifyEmailStatusResendFailure': 'Fr-Unable to resend Email',
+	'authVerifyEmailStatusResendSuccess': 'Renvoi de courriel',
+
+	'authVerifyEmailDetailsPending': 'Vérification de votre compte en cours',
+	'authVerifyEmailDetailsSuccess': 'Votre compte a été validé avec succès, vous pouvez vous connecter à présent',
+	'authVerifyEmailDetailsFailureAlreadyUsed': 'Un utilisateur avec cet identifient existe déjà.',
+	'authVerifyEmailDetailsFailureNotValid': 'Ce lien est invalide.',
+	'authVerifyEmailDetailsFailureExpired': 'Ce lien courriel a expiré.',
+	'authVerifyEmailDetailsResendFailure': "Une défaillance inconnue s'est produite",
+	'authVerifyEmailDetailsResendSuccess': 'Le courriel a été renvoyer',
+
+	'authVerifyEmailResendEmailButton': 'Renvoyer le courriel',
+	'authRestrictedAccess': "Veuillez créer un nouveau compte pour l'application mobile",
+
+	// <-- AuthErrors these strings are displayed when the text entered does not meet validation requirements
+	// 'authErrorPasswordMatch': 'Les mots de passe doivent correspondre',
+	// 'authErrorEmailOrPhone': 'Veuillez entrer un courriel ou un numéro de téléphone valide',
+	// 'authErrorPassword':
+	//  'Le mot de passe doit contenir au moins 8 caractères, un en capital, un en petite lettre, un chiffre et un caractère spécial',
+	// 'authErrorPhone': 'Veuillez entrer un numéro valide',
+	'authErrorPicker': 'Veuillez sélectionner une chiffre',
+	// 'authErrorTooLong': 'Cette case est limitée à 100 caractères',
+	// 'authErrorTooShort': 'Veuillez entrer au moins 2 caractères',
+	// 'authErrorInvalidEmail': 'Veuillez entrer un courriel valide',
+
+	// ----> AuthScreens
+
+	// <-- Settings Screen
+	'settingsSuiteDisconnectionError': 'Déconnexion non réussie',
+	'settingsSuiteDisconnectionConfirmation': 'Êtes-vous sûr de vouloir vous déconnecter de votre tablette intelligente? Pour vous reconnecter, scannez le code QR sur la tablette intelligente.',
+	'settingsLogoutConfirmation': 'Êtes-vous sûr de vouloir vous déconnecter?',
+	'settingsDeleteAccountConfirmation':
+		'Êtes-vous sur de vouloir supprimer votre compte et vos données? Cette action ne peut être révoqué',
+	'settingsDeleteAccountSuccessTitle': 'Confirmation de suppression de compte',
+	'settingsDeleteAccountSuccess':
+		'Votre compte a été sélectionner pour suppression, cela peut prendre jusqu’à 5 jours pour être traité',
+	'settingsUserAccount': 'Compte utilisateur',
+	'settingsUserAccountEditBtn': 'Modifier les info du compte',
+	'settingsUserAccountEditTitle': 'Modifier mon profil',
+	'settingsUserAccountEditEmailNote':
+		'Votre courriel est lié à votre profil et ne peut être modifié.',
+	'settingsUserAccountEditErrorInvalidPhone':
+		'Numéro de téléphone invalide. Veuillez insérer un numéro à {1}-{2} chiffres.',
+	'settingsDwelling': 'Logement',
+	'settingsSupport': 'Service à la clientèle SmartONE',
+	'settingsSupportConfirmationAlertTitle': 'Assistance SmartONE',
+	'settingsSupportDetails': 'Veuillez contacter notre ligne d’assistance 24/7',
+	'settingsSupportConfirmationAlertDetail':
+		"Veuillez consulter le manuel d'utilisation de la tablette. Pour toute autre question, vous pouvez nous envoyer en courriel.",
+	'settingsSupportSendEmailButton': 'Envoyer un courriel ',
+	'settingsSupportCancelEmailButton': 'Annuler', //ToDo: Replace with 'cancel' key
+	'settingsSupportMainMsg': "Veuillez consulter nos tutoriels YouTube et notre manuel d'utilisation qui se trouvent sur l'écran d'accueil de votre application ONE ! App. Vous y trouverez des instructions faciles, étape par étape, qui vous aideront à résoudre votre problème.",
+	'settingsSupportContactUs': "Si vous avez toujours besoin d'aide, veuillez nous envoyer un courriel à",
+	'settingsSupportPleaseCall': "Si vous avez une question urgente, veuillez appeler notre ligne d'assistance :",
+	'settingsVersion': 'Version',
+	'settingsBuild': 'Numéro de la version',
+	'settingUnlinkSuiteAction': 'Se déconnecter', // button disconnects the use from wall pad
+	'settingSignOutButton': 'Déconnexion', // signs user out of app on given device
+	'settingsDeleteAccountButton': 'Supprimer les infos du compt', // deletes account info
+	'settingsDeleteAccount': 'Suppression de compte',
+	'settingsUnableToDialAlert': "Cet appareil n'est pas en mesure de faire un appel",
+	// 'settingProfilePersonalInfoSection': 'Information personnelle',
+	'settingsCustomerServiceInstructions': 'Comment pouvons-nous vous aider?',
+	'settingsConnectedHubsSection': 'Les centres connectés',
+	'settingsConnectedResidents': 'Résidents connectés',
+	'settingsTermsAndConditions': 'Conditions générales SmartONE',
+	'settingsPrivacyPolicy': 'Politique de confidentialité SmartONE',
+	'settingsNotificationOffWarn':
+		'Sachez qu’en choisissant de désactiver toutes les notifications, vous recevrez toujours les mises à jour cruciales de votre gestionnaire immobilier.',
+	'settingsNotificationCriticAnnouncMsg':
+		"Les annonces critiques seront diffusées à tous les résidents, sans tenir compte des préférences individuelles en matière de communication.",
+	'settingsErrorEmailUnavailable': 'Aucun service courriel trouvé',
+	'settingsMoveOut': 'Déménager',
+	'settingsMenuMoveOut': 'Déménagement de la suite',
+	'settingsMenuDisconnectWallpad': 'Déconnexion de la tablette intelligente',
+	'settingsMoveOutTitle': 'Déménagement de la suite',
+	'settingsMoveOutDescription': 'Êtes-vous sûr de vouloir déménager définitivement de la suite #{{suiteNum}}?',
+	'settingsMoveOutSubDescription': "Veuillez noter que cette action entraînera la suppression de tout accès au bâtiment et à la suite via l'application Smart ONE ! App. De plus, toutes les réservations d'équipements et toutes les autres intégrations One ! App que vous pourriez avoir dans votre communauté ne seront plus accessibles une fois le processus de déménagement terminé.  Les autres utilisateurs enregistrés dans votre suite ne seront PAS affectés.",
+
+	// --> Settings Screen
+
+	// <-- Profile Screen
+
+	// 'profileSalutation': 'Titre',
+	'profileBuildingName': 'Nom du bâtiment ou adresse',
+	'profileSuite': 'Numéro de la suite',
+
+	// --> Profile Screen
+
+	// <-- Dwelling Screen
+	'dwellingsCommunityName': 'Nom de communauté',
+	'dwellingsBuildingName': 'Nom du bâtiment',
+	'dwellingsSuiteNumber': 'Numéro de la suite',
+
+	// --> Dwelling Screen
+
+	// <-- Screen Titles
+	'screenTitleAmenityBookings': 'Ma réservation',
+	'screenTitleAmenities': 'Commodités',
+	'screenTitleContent': 'Contenu',
+	'screenTitleBlinds': 'Stores',
+	'screenTitleThermostat': 'Thermostat',
+	'screenTitleLighting': 'Éclairage',
+	'screenTitlePowerOutlet': 'Prise de courant',
+	'screenTitleDDLAccess': 'Suite', // DigitalDoorLock (this allow 'access to suitre door )
+	'screenTitleServiceTicket': 'Notice de réparation',
+	'screenTitleAccessControl': 'Contrôle d’accès', // access control allows opeing of common doors
+	'screenTitleAccess': 'Accès', // unused ???? ,
+	'screenTitleVisitorLog': 'Registre des visiteurs',
+	'screenTitleAccessLog': 'Journal d’accès',
+	'screenTitleParking': 'Stationnement',
+	'screenTitleParkingEditVehicle': 'Modifier véhicule',
+	'screenTitlePackages': 'Colis',
+	'screenTitleSettings': 'Paramètres',
+	'screenTitleProfile': 'Mon profil',
+	'screenTitleDwellings': 'Logement',
+	'screenTitleTerms': 'Conditions générales',
+	'screenTitlePrivacy': 'Politique de confidentialité',
+	'screenTitleEnergy': "Rapport de d'énergie",
+	'screenTitleGuestParking': 'Stationnement visiteur',
+	//'screenTitleAlarm': 'Alarme',
+	// 'screenTitleResidents': 'Résidents connectés',
+	'screenTitleElevator': 'Ascenseur',
+	'screenTitleEVCharging': 'Recharge VE',
+
+	// --> Screen Titles
+
+	// <-- Security
+
+	'securityModeAway': 'Absent',
+	'securityModeOff': 'Désactivé',
+	'securityModeStay': 'Présent',
+	'securityModeDisableAlertTitle': 'Désactiver le mode de sécurité',
+	'securityModeDisableAlertDetails':
+		'Êtes sure de vouloir désactivé le mode de sécurité de votre suite?',
+	'securityModeChangeAlertTitle': 'Changer le mode de sécurité',
+	'securityModeChangeAlertDetails':
+		'Pour changer votre mode de sécurité à {{mode}}, vous devez d’abord désactivé {{securityMode}}, voulez-vous le faire maintenant?',
+
+	// --> Security
+
+	'doorStatusDoorOpen': 'Porte ouverte',
+	'doorStatusDoorClosed': 'Porte fermée',
+	'doorStatusMqttDisconnected': 'Se reconnecter',
+
+	// 'deviceTypeSuiteDoorLock': 'Serrure',
+	// 'deviceTypeBlind': 'Stores',
+	// 'deviceTypeThermostat': 'Thermostats',
+	// 'deviceTypeLight': 'Éclairage',
+
+	// <-- Thermostat
+
+	'thermostatModeCooling': 'Climatisation',
+	'thermostatModeHeating': 'Chauffage',
+	'thermostatModeVentilation': 'Ventilation',
+	'thermostatHvacModeLabelHeat': 'Chauffage fixé à ',
+	'thermostatHvacModeLabelCool': 'Climatisation fixée à',
+	'thermostatLabelCurrentTemp': 'Température intérieure',
+	'thermostatLabelCurrentHumidity': "Niveau d'humidité",
+	mode: 'Mode',
+	temperature: 'Température',
+	fanSpeed: 'Vitesse du ventilateur',
+	thermostats: 'Thermostats',
+
+	// --> Thermostat
+
+	// new from here as Mar 18
+	'acessCodeErrorIsNumeric': "Votre code d'accès est numérique",
+	// 'authNameInvalidChar': "S'il vous plaît seulement des lettres, des chiffres et des espaces",
+	// 'unknownError': 'Une erreur inconnue est survenue',
+
+	'settingsSelectLanguage': 'Choisir la langue',
+	'screenTitleLanguageSelector': 'Choisir la langue',
+
+	// <-- Access Controls
+
+	'accessControlTabAllAccessPoints': "Points d'accès",
+	'accessControlTabFavourites': 'Préférés ',
+	//'accessControlCommonAreas': 'Espaces communs', ** unused
+	'accessControlNoAccessPoints': "Aucun point d'accès trouvé",
+	'accessControlGarageDoors': 'Accès Garage',
+	// this item is  followed by the icon (pictogram!)
+	'accessControlNoFavourites':
+		"Ajoutez les serrures que vous utilisez le plus souvent en appuyant sur l'icône des favoris.",
+	'accessControlStatusLocked': 'Accès bloqué',
+	'accessControlStatusAccessGranted': 'Accès accepté',
+	accessControl: {
+		accessPeriod: "Période d'accès:",
+		disabledDisclaimer:
+			"Cette porte a été désactivée, veuillez contacter le gestionnaire immobilier pour obtenir de l'aide"
+	},
+	// --> Access Controls
+
+	// <-- Notifications
+
+	'notificationsNotConnected': 'La suite n’est pas connectée',
+	'notificationsEmpty': 'Vous n’avez pas encore de notifications',
+	'notificationsEarlier': 'Précédemment',
+
+	// --> Notifications
+
+	// <-- Suite
+
+	'suitePressToUnlock': 'Appuyez pour déverrouiller',
+	// 'suiteLocked': 'Verrouillée',
+	'suiteUnlocked': 'Déverrouillée',
+	'suiteUnlocking': 'En cours de déverrouillage',
+	'suiteConfigureBiometricMessage':
+		'Veuillez considérer la configuration de vos empreintes digitales ou Face ID sur votre appareil pour une sécurité additionnelle',
+	'suiteBiometricSecurity': 'sécurité biométrique',
+	'suiteLockDisclaimer':
+		'Clause de non-responsabilité: Le texte “Appuyez pour déverrouiller” sera toujours affiché; que la porte soit verrouillée ou déverrouillée.',
+
+	// --> Suite
+
+	// <-- Energy
+
+	'energyReportSubtitle': "CONSOMMATION D'ÉNERGIE",
+	'energyComparisonNoChange': 'Pas de changement',
+	'energyComparisonDay': 'd’hier',
+	// 'energyComparisonWeek': 'comparer à la semaine dernière',
+	// 'energyComparisonYear': 'de l’an dernier',
+	'energyDataUnavailable': 'Pas de données disponibles',
+	'energyError': 'Une erreur est survenue. Veuillez réessayer.',
+
+	// --> Energy
+
+	'loadingCameraInfo': 'Chargement d’information de caméra en cours',
+	'loadingSceneInfo': 'Chargement des informations de scène',
+	'sceneExpansionTitle': 'Scènes',
+	'sceneExecuteSuccess': 'Scénario: {{executedSceneName}} est désormais activé.',
+	'sceneExecuteFailure': 'Le scénario {{executedSceneName}} n’a pas été activé.',
+	'sceneNoScenes': 'Veuillez ajouter des scènes sur votre tablette intelligente',
+
+	// <-- Notification Types
+
+	'lobbyCalls': 'Appels d’intercom',
+	'alarms': 'Alarmes de la suite',
+	'sms': 'Texto',
+	'push': 'Téléphone cellulaire',
+	'notificationSettingsDeviceHeader': 'Notifications des appareils',
+	'notificationSettingsDeviceHelp':
+		'La notification des appareils enclenchera les notifications sur l’appareil utilisé',
+	'notificationSettingsAccountHeader': 'Notification du compte',
+	'notificationSettingsAcctountHelp':
+		'La notification du compte enclenchera les notifications à travers des appareils multiples liés au même compte',
+
+	// --> Notification Types
+
+	// <-- Elevator
+
+	'goingUp': 'Going Up',
+	'goingDown': 'Going Down',
+
+	// --> Elevator
+
+	// <-- Tickets
+
+	'ticketDetail': 'Détails du billet',
+	'ticketSubject': 'Sujet',
+	'ticketNoteImage': 'Notes et Images',
+	'ticketCreate': 'Créer une notice de réparations',
+	'ticketUpdate': 'Mettre à jour le billet',
+	// 'ticketHeaderBtnNew': 'Créer une notice de réparations',
+	'ticketHistory': 'Historique des requêtes',
+	'ticketMessageNoTickets':
+		'Vous n’avez créé aucune requête. \n Cliquez sur l’onglet ‘+’ pour débuter.',
+	'ticketErrorMessageBadFileType': 'Ce type de fichier n’est pas permis',
+	'ticketErrorMessageTooManyFiles': 'Nombre maximum de fichiers est de 5',
+	'ticketDetailTitleEdit': 'Modifier la requête',
+	'ticketDetailTitleCreate': 'Nouvelle requête',
+	// 'ticketsNotFound': !!!,
+	'ticketDetailTitleView': 'Details de la requête',
+	'ticketSelectCategoryPlaceholder': 'Choisir la catégorie',
+	'ticketSelectSeverityPlaceholder': 'Choisir la sévérité',
+	'ticketFilterStatusTitle': 'État actuel',
+	'ticketFilterResetButtonTitle': 'Réinitialiser les filtres',
+	'ticketAlertTitle': 'Ticket {{ticketNumber}}', // followed by by the ticket number
+	'ticketAlertCreateDetails': 'Création de votre requête réussie.',
+	'ticketAlertUpdateDetails': 'Mise à jour de votre requête réussie.',
+	'ticketAlertCreateErrorDetails': 'Incapable de créer la requête.',
+	'ticketAlertUpdateErrorDetails': 'Incapable de mettre à jour la requête.',
+	'ticketId': 'ID du ticket',
+
+	// --> Tickets
+
+	// <-- Image Selector
+
+	// translation note! these two items actually form a sentence
+	// 'Take a photo or upload'
+	// the 'upload' is clickable text (a button)
+	// so upload must be the last word!
+	'imageSelectorInstructions': 'Prenez une photo ou',
+	'imageSelectorInstructionsUpload': 'Téléchargez',
+	'imageSelectorSupports': 'Supporte JPG,PNG | Maximum 1 MB',
+	'imageDeleteConfirmationTitle': 'Confirmer la suppression',
+	'imageDeleteConfirmationDetails': 'Êtes-vous sur de vouloir effacer l’image sélectée?',
+
+	// --> Image Selector
+
+	// <-- Elevator
+
+	'elevatorTabNameFavorites': 'Mes raccourcis',
+	'elevatorTabNameCallElevator': 'Appel ascenseur',
+	'elevatorTabNameFloorAccess': "Accès à l'étage",
+	// 'elevatorScreenNameShortcuts': 'Raccourcis',
+	'elevatorScreenNameSelectFloor': 'Choisir l’étage',
+	'elevatorScreenNameProcessing': 'Traitement en cours',
+	'elevatorScreenNameSuccess': 'Réussie!',
+	'elevatorScreenNameAddShortcut': 'Ajouter un raccourci',
+	'elevatorSectionNameGoingUp': 'Monter',
+	'elevatorSectionNameGoingDown': 'Descendre',
+	'elevatorSelectorCurrent': 'Présent étage',
+	'elevatorSelectorDestination': 'Étage de destination',
+	'elevatorSelectFloorAccess': "Choisir l'accès à l'étage",
+	'elevatorSelectorCabin': 'Choisir la banque d\'ascenseur',
+	'elevatorActionAddToFavorites': 'Ajouter aux raccourcis',
+	'elevatorActionCallElevator': 'Appeler un ascenseur',
+	'elevatorNoShortCutsMessage': 'Pas de raccourcis trouver',
+	'elevatorCallSuccess': 'Ascenseur appelé',
+	'elevatorCallSuccessAssignedCar': 'Ascenseur {{assignedCarName}} appelé',
+	'elevatorFavoriteDeleteButtonLabel': 'Supprimer',
+	'elevatorFavoriteDeleteAlertTitle': 'Êtes-vous certain de vouloir supprimer ce raccourci?',
+	'elevatorFavoriteDeleteAlertDetails': 'Cette action ne peut être révoqué',
+	'elevatorDeleteShortcutSuccess': 'Le raccourci a été supprimé',
+	'elevatorShortCutSuccess': 'Le raccourci a été ajouter',
+	'elevatorDuplicateErrorMessage': 'Le raccourci existe déjà',
+	'elevatorCallElevatorButton': 'Appel ascenseur',
+	'pleaseSelect': 'Veuillez Choisir',
+	'elevatorAccessPressToGrant': "Appuyer pour autoriser l'accès à l'étage",
+	'elevatorUnlockingFloorAccess': "Accès à l’étage en cours",
+	'elevatorFloorAccessGranted': "Accès accordé à l'étage {{floorName}}",
+	'elevatorFloorAccessFailed': 'Accès à l’étage échoué! Veuillez réessayer ultérieurement.',
+	'elevatorPressToUnlock': 'Appuyez pour déverrouiller',
+	'elevatorUnlocked': 'Verrouillée',
+	'elevatorUnlocking': 'Déverrouillage...',
+	'elevatorErrorSelectFloorAndBank': "Veuillez sélectionner l'étage actuel et la banque d'ascenseurs avant d'appeler l'ascenseur",
+
+	// --> Elevator
+
+	'iotUnknownCommaxError':
+		'Désolé, une erreur inattendue est survenue. Veuillez réessayez ultérieurement.',
+	//FigmaReference:https://www.figma.com/file/badVu7GlzPJmpDtwR6eLSy/SmartONE-App-(Current)?node-id=2396%3A2119&t=xhySi8TCdWkaDaY5-0
+	'upgradeAppTitle': 'Mise à jour disponible',
+	'upgradeAppDetails':
+		'Cette version {{storeVersion}} de l’appli vise à fournir aux utilisateurs une expérience améliorée de leur suite. Veuillez mettre à jour pour garantir la continuité des fonctionnalités de l’appli.',
+	'upgradeAppAcceptBtn': 'Mettre à jour',
+	'upgradeAppDismissBtn': 'Pas maintenant',
+	'warningInternetDisconnected': 'Erreur réseau! Veuillez vérifier votre connexion internet.',
+	'warningInternetReconnected': 'La connexion internet a été rétablie.',
+	'setSecurityModeError': 'Pas en mesure d’activer le mode {{securityMode}}.',
+	'setSecurityModeMqttTimeout': 'Pas en mesure d’activer le mode {{securityMode}}.',
+
+	// <-- Packages:
+	'packageServiceAlreadyPickedUp': 'Colis déjà récupéré?',
+	'packageServicePackagePickedUp': 'Colis récupéré',
+	'noPackageHint': 'Aucun paquet à montrer',
+	'packageServiceNotConfigure': 'Les colis n’ont pas encore été établis pour cette communauté.',
+	'packageServiceAvailableSectionLabel': 'Prêt à la collecte',
+	'packageServiceMarkAsCollected': 'Marquer comme collecté',
+	'packageServiceConfirmMarkAsCollected': 'Êtes-vous sure de vouloir marquer ce colis comme collecté?',
+	'packageServicePackageCollected': 'Votre colis a été récupéré !',
+	'packageServicePackageMarkedCollected': ' Paquet marqué comme collecté',
+	'packageServicePackageNotMarkedCollected': "Le colis n'a pas pu être marqué comme collecté",
+	'packageServiceYouPickedUpPackage': 'Votre colis a été récupéré avec succès',
+	'packageServiceYouPickedUpPackageOn': 'Collecte de colis réussie le',
+	'packageServiceCollectedLabel': 'Collecté',
+	'packageServiceUncollectedLabel': 'Non collecté',
+	'packageServicePackageIdLabel': 'ID Colis',
+	'packageServicePackageRoomlabel': 'Salle des colis',
+	'packageServiceDetailAccessCodeLabel': 'Code d’accès',
+	'packageServiceDetailDateReceivedLabel': 'Date reçue',
+	'packageServiceDetailTimeReceivedLabel': 'Heure reçue',
+	'packageServiceDetailDeliveredDateTime': 'Date et heure délivrée',
+	'packageServiceDetailDeliveredByLabel': 'Livraison faite par',
+	'packageServiceDetailsTitle': 'Details du colis',
+	'packageServiceDetailSuiteLabel': 'No. de suite',//ToDo: Remove after 1.6 release
+	'packageServiceDetailCompartmentLabel': 'Compartiment',
+	'packageServiceDetailProviderId': '{{providerName}} ID',
+	'packageServiceDetailPackageReceived': 'Votre colis a été récupéré le {{date}} à {{time}}',
+	'packageServiceErrorUncollectedMessage': 'Veuillez vérifier avec le bureau de gestion pour le statut actuel et la localisation de votre colis.',
+	'packageServiceErrorUnavailableQRCode': 'Le code QR n’est présentement pas disponible, veuillez utiliser le code d’accès à la place.',
+
+	// <-- Amenity Booking:
+	// 'requestBookingButton': 'Demandez votre réservation',
+	// 'myActiveBooking': 'Mes réservations actives',
+	'bookings': 'Réservations',
+	'allAmenities': 'Toutes les commodités',
+	'bookAmenity': 'Réserver la commodité',
+	'amenityScheduled': 'Commodité réservée',
+	'selectAmenity': 'Choisir la commodité',
+	'noAmenitiesAvailable':
+		'Les commodités d’immeuble ne sont pas encore disponibles. Veuillez contacter votre gestionnaire immobilier pour plus d’infos.',
+	'bookingViewMenu': 'Voir la réservation',
+	'bookingEditMenu': 'Modifier la réservation',
+	'bookingCancelMenu': 'Annuler la réservation',
+	'bookingRebook': 'Fr Re-book Amenity',
+	'numGuests': "Nombre de participants",
+	'maxNumGuests': "Nombre maximum de participants",
+	'confirmTerms': "J'ai lu et j'accepte les conditions générales ci-dessus.",
+	'confirmRequirements': "Je comprends que les conditions ci-dessus doivent être remplies avant que ma réservation soit approuvée.",
+	'bookingConfirmMessage': "Cette commodité a été réservée avec succès. \n Un courriel de confirmation a été envoyé..",
+	'bookingFailedMessage': "Le service n'a pas été réservé.",
+	'bookingEditFailedMessage': "La réservation n'a pas été modifiée.",
+	'bookingRequirements': 'Les étapes ci-dessous sont nécessaires pour réserver cette commodité.',
+	'bookingDetails': 'Détails de la réservation',
+	'cancelBookingConfirmation':
+		'Êtes-vous sûr de vouloir annuler votre réservation pour {{amenityName}} à partir de {{bookDate}}?',
+	'amenityBooking': {
+		'bookingFailTitle': 'Commodité réservée'
+	},
+	// <-- EV Charging:
+	// 'evChargingMaintenance': 'En cours de maintenance',
+	'evChargingSession': 'Session',
+	'evChargingFlatRate': "Taux fixe",
+	'visitorPass': {
+		visitors: "Visiteurs",
+		inviteHistory: "Historique des invitations",
+		screenTitle: 'Pass visiteur',
+		"inviteVisitor": "Inviter un visiteur",
+		"visitorDetails": "Détails du visiteur",
+		'noVisitorPassMsg': "Vous n'avez pas créé de visiteurs.\nCliquez sur l'icône « + » pour commencer",
+		noInviteMsg: 'Aucune invitation de visiteur',
+		"noFacility": "Aucune installation disponible",
+		"activePass": "Passes actives",
+		"inactivePass": "Passes désactivé",
+		"accessDetails": "Détails d'accès",
+		"temporaryPass": "Laissez-passer temporaire",
+		"scheduledPass": "Laissez-passer programmé",
+		expiredPass: 'Pass expirés',
+		"disclaimer": "Le pass expirera au bout de 12 heures s’il n’est pas accepté",
+		"doorList": "Liste des portes",
+		"doorListSubtitle": "Votre visiteur peut accéder:",
+		suiteDoor: "Porte de la suite",
+		buildingAccessPoint: "Point d'accès du bâtiment",
+		deactivate: 'Désactiver',
+		reactivate: 'Réactiver',
+		resend: 'Renvoyer',
+		accessType: "Le type d'accès",
+		viewInviteHistory: 'Afficher l\'historique des invitations',
+		effectiveStart: 'En vigueur à partir de',
+		effectiveEnd: "En vigueur jusqu'à",
+		"form": {
+			"visitorEmail": "Courriel du visiteur",
+			"accessLevelTitle": "Niveau d'accès",
+			"accessLevelSubtitle": "Choisir la zone d'entrée des visiteurs",
+			"accessScheduleTitle": "Horaire d'accès",
+			"accessScheduleSubtitle": "Sélectionnez le type d'accès:",
+			confirmVisitorEmail: 'Confirmer l’adresse e-mail'
+		},
+		"modal": {
+			"removeTitle": "Retirer l’accès invité",
+			"removeConfirmText": "Êtes-vous certain de vouloir retirer l’accès invité pour {{ visitorName }}?",
+			"removeDisclaimer": "Dès que retiré, tous les accès invités seront révoqués.",
+			"sendSuccess": "L'invitation de visiteur a été envoyée avec succès à {{ visitorName }}",
+			deactivateTitle: 'Désactiver l’accès invité',
+			deactivateConfirmText: 'Êtes-vous certain de vouloir désactiver l’accès visiteur pour {{ visitorName }}',
+			deactivateDisclaimer: 'Vous pouvez facilement le réactiver plus tard en visitant la section ‘Accès Désactivés’ dans l’onglet invités.',
+			reactivateTitle: 'Réactiver l’accès invité',
+			reactivateConfirmText: 'Le l’accès visiteur réactivé pour {{ visitorName }}',
+		},
+		successTitle: 'Confirmé',
+		successDescription: "L'invitation du Visitor Pass a été envoyée avec succès à {{ visitorName }}",
+		toast: {
+			removeInviteSuccess: "Invitation de visiteur car {{ visitorName }} a été supprimé",
+			removeInviteError: "Erreur réseau ! Veuillez vérifier votre connexion Internet",
+			updateVisitorPassError: 'Impossible de mettre à jour le pass visiteur. Veuillez réessayer.'
+		}
+	},
+
+	// <-- Scheduling
+	scheduleDetails: "Détails de l'horaire",
+	schedule: 'Horaire',
+	// => Add Schedule
+	scheduleName: "Nom de l'horaire",
+	addAction: 'Ajouter une action',
+	scheduleOccurrence: "L'horarie des événements",
+	scheduleOccurrenceDescription: 'À quelle fréquence souhaitez-vous que cet horaire soit mis en œuvre',
+	addOccurrence: "Ajouter une occurrence",
+	createSchedule: 'Créer un horaire',
+	editSchedule: "Modifier l'horaire",
+	// => add Schedule Actions
+	actions: 'Actions',
+	addActionDescription:
+		"Sélectionnez le dispositif qui effectuera une action au début de cette programmation.",
+	wallpadScenes: "Scènes de tablette",
+	// => Suite Schedules
+	suiteSchedules: 'Enregistrer le calendrier',
+	activeSchedules: "Horaires actifs",
+	pausedSchedules: 'Horaires en pause',
+	pauseSchedule: 'Programme en pause',
+	confirmPause:
+		"Vous êtes sûr de vouloir désactiver {{scheduleName}} ? Vous pourrez facilement la réactiver plus tard en visitant la section \"Programmations mises en pause\"",
+	removeSchedule: "supprimer l'horaire",
+	confirmRemove:
+		"Êtes-vous sûr de vouloir supprimer {{scheduleName}} des horaires ? Cette action ne peut pas être annulée",
+	"schedulePauseSuccess": "L'horaire a été mis en pause.",
+	"scheduleEnableSuccess": "L'horaire a été repris.",
+	"schedulePauseFail": "L'horaire n'a pas pu être mis en pause !",
+	"scheduleEnableFail": "L'horaire n'a pas pu être repris !",
+	"scheduleRemoveSuccess": "L'horaire a été supprimé.",
+	"scheduleRemoveFail": "L'horaire n'a pas pu être supprimé !",
+	// => ScheduleItem
+	'noSchedules': "Vous n'avez pas d'horaire sauvegardé. Cliquez sur l'icône « + » pour commencer",
+	'schedulesReactivateSchedule': "Vous devez d'abord réactiver l'horaire",
+	'schedulesDeleteSuccess': "Programme supprimé avec succès",
+	'schedulesDeleteFailed': "La suppression de l'horaire a échoué !",
+	'scheduleCreateSuccess': "Horaire créé avec succès",
+	'scheduleCreateFailed': "Échec de la création de l'horaire !",
+	'schedulesActionCreateSuccess': "L'action n'a pas pu être créée!",
+	'schedulesActionCreateFailed': "L'action n'a pas pu être créée!",
+	// => WallpadScenes
+	scenes: 'Scènes',
+	wallpadSceneInfoDescription:
+		"Créez des scènes personnalisées sur votre pavé mural pour changer l'ambiance de votre maison, puis sélectionnez-les dans l'application",
+	noScenes: "Vous n'avez pas de scènes enregistrées. Commencez à ajouter des scènes à l'aide de votre tablette murale."
+}
