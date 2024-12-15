@@ -24,11 +24,10 @@ export const parseLocaleJson = (locale: JSONObject) => {
 
     for (const key in obj) {
       const fullKey = parentKey ? `${parentKey}.${key}` : key
-     
 
       if (typeof obj[key] === 'object' && obj[key] !== null) {
         traverse(obj[key] as JSONObject, fullKey)
-      }else{
+      } else {
         localeKeys.push(fullKey)
       }
     }
