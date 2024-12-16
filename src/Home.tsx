@@ -1,63 +1,88 @@
 import { Card, Stack, CardActions, Button, Typography, CardContent } from '@mui/material'
 import MC_EN from './locales/mc-en.json'
 import MC_FR from './locales/mc-fr.json'
+import MA_EN from './locales/ma-en.json'
+import MA_FR from './locales/ma-fr.json'
 import { parseLocaleJson } from './utils'
 
 const Home = () => {
   const resultMCEN = parseLocaleJson(MC_EN)
   const resultMCFR = parseLocaleJson(MC_FR)
+  const resultMAEN = parseLocaleJson(MA_EN)
+  const resultMAFR = parseLocaleJson(MA_FR)
 
   return (
     <Stack
       display="flex"
-      sx={{ flex: 1, padding: 15, justifyContent: 'space-between', border: '1px solid green' }}
+      flexDirection="row"
+      alignItems="center"
+      gap={2}
+      flexWrap="wrap"
+      sx={{
+        flex: 1,
+        padding: 10,
+        flexDirection: 'row',
+        border: '1px solid green'
+      }}
     >
       {/* MC EN */}
-      <Card sx={{ width: 275 }}>
-        <Typography variant="h5" sx={{ color: 'text.secondary' }}>
-          MC English locales
-        </Typography>
-
-        <CardContent sx={{ padding: 6 }}>
-          <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-            Total translated keys
-          </Typography>
+      <Card sx={{ minWidth: 275 }}>
+        <CardContent>
           <Typography variant="h5" component="div">
-            {resultMCEN.localeKeys.length}
+            MC English locales
           </Typography>
-          <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-            Total characters
+          <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+            Total translate keys: {resultMCEN.localeKeys.length}
           </Typography>
-          <Typography variant="h5" component="div">
-            {resultMCEN.totalCharaters}
-          </Typography>
+          <Typography variant="body2">Total characters: {resultMCEN.totalCharaters}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">See all translations</Button>
+          <Button size="small">Learn More</Button>
         </CardActions>
       </Card>
       {/* MC FR */}
-      <Card sx={{ width: 275 }}>
-        <Typography variant="h5" sx={{ color: 'text.secondary' }}>
-          MC French locales
-        </Typography>
-
-        <CardContent sx={{ padding: 6 }}>
-          <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-            Total translated keys
-          </Typography>
+      <Card sx={{ minWidth: 275 }}>
+        <CardContent>
           <Typography variant="h5" component="div">
-            {resultMCFR.localeKeys.length}
+            MC French locales
           </Typography>
-          <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-            Total characters
+          <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+            Total translate keys: {resultMCFR.localeKeys.length}
           </Typography>
-          <Typography variant="h5" component="div">
-            {resultMCFR.totalCharaters}
-          </Typography>
+          <Typography variant="body2">Total characters: {resultMCFR.totalCharaters}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">See all translations</Button>
+          <Button size="small">Learn More</Button>
+        </CardActions>
+      </Card>
+      {/* MA EN */}
+      <Card sx={{ minWidth: 275 }}>
+        <CardContent>
+          <Typography variant="h5" component="div">
+            MA English locales
+          </Typography>
+          <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+            Total translate keys: {resultMAEN.localeKeys.length}
+          </Typography>
+          <Typography variant="body2">Total characters: {resultMAEN.totalCharaters}</Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Learn More</Button>
+        </CardActions>
+      </Card>
+      {/* MA FR */}
+      <Card sx={{ minWidth: 275 }}>
+        <CardContent>
+          <Typography variant="h5" component="div">
+            MA French locales
+          </Typography>
+          <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+            Total translate keys: {resultMAFR.localeKeys.length}
+          </Typography>
+          <Typography variant="body2">Total characters: {resultMAFR.totalCharaters}</Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Learn More</Button>
         </CardActions>
       </Card>
     </Stack>
