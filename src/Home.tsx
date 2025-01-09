@@ -6,6 +6,23 @@ import MA_FR from './locales/ma-fr.json'
 import { parseLocaleJson } from './utils'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+
+const LanguageSwitcher: React.FC = () => {
+  const { i18n } = useTranslation()
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng)
+  }
+
+  return (
+    <div>
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('fr')}>French</button>
+      <button onClick={() => changeLanguage('es')}>Spanish</button>
+    </div>
+  )
+}
 
 const Home = () => {
   const [display, setDisplay] = useState('MC_EN')
@@ -16,42 +33,43 @@ const Home = () => {
 
   const readTranslation = () => {
     let readKeys = resultMCEN
-    let translateFile = MC_EN
+    // let translateFile = MC_EN
 
     switch (display) {
       case 'MC_EN':
-        readKeys = resultMCEN
-        translateFile = MC_EN
+        readKeys = resultMCFR
+        // translateFile = MC_EN
         break
       case 'MC_FR':
         readKeys = resultMCEN
-        translateFile = MC_FR
+        // translateFile = MC_FR
 
         break
       case 'MA_EN':
-        readKeys = resultMAEN
-        translateFile = MA_EN
+        readKeys = resultMAFR
+        // translateFile = MA_EN
 
         break
       case 'MA_FR':
         readKeys = resultMAEN
-        translateFile = MA_FR
+        // translateFile = MA_FR
 
         break
       default:
         break
     }
     return readKeys.localeKeys.map((localeKey) => {
-      const nestedKeys = localeKey.split('.')
-      let translate = ''
+      // const nestedKeys = localeKey.split('.')
+      // let translate = ''
 
-      nestedKeys.forEach((k: string) => {
-        translate = translate ? translate[k] : translateFile[k]
-      })
+      // nestedKeys.forEach((k: string) => {
+      //   translate = translate ? translate[k] : translateFile[k]
+      // })
+      const { t } = useTranslation()
 
       return (
-        <Typography sx={{ color: !translate ? 'red' : 'white' }}>
-          {localeKey}: {translate}
+        <Typography sx={{ color: !t(localeKey) ? 'red' : 'white' }}>
+          {localeKey}: {t(localeKey)}
         </Typography>
       )
     })
@@ -59,6 +77,7 @@ const Home = () => {
 
   return (
     <Stack>
+      <LanguageSwitcher />
       <Stack
         display="flex"
         flexDirection="row"
@@ -142,7 +161,16 @@ const Home = () => {
           </CardActions>
         </Card>
       </Stack>
-      {display && <Stack>{readTranslation()}</Stack>}
+      {display && (
+        <Stack
+          sx={{
+            flex: 1,
+            padding: 3
+          }}
+        >
+          {readTranslation()}
+        </Stack>
+      )}
     </Stack>
   )
 }

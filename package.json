@@ -14,8 +14,12 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.2.0",
     "@mui/material": "^6.2.0",
+    "@phrase/i18next-backend": "^1.2.0",
+    "i18next": "^24.2.1",
+    "i18next-http-backend": "^3.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
     "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
